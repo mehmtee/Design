@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;700&display=swap');body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    height: 450px;
+    width: 450px;
+    background-color:#1B1B41;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.title p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.group{
+    height: 150px;
+    background-color: #20204B;
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+.group .group__img{
+    position: absolute;
+    left: 15px;
+    top: 50px;
+}
+
+.user-img {
+    border-radius: 50%;
+}
+
+.group .text-contain{
+ position: absolute;
+ left: 100px;
+ top: 30px;
+}
+
+.group button{
+    position: absolute;
+    left: 300px;
+    top: 70px;
+    background-color: #20204B;
+    color: white;
+    border-radius: 30%;
+    box-shadow: teal;
+    outline: none;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    height: 38px;
+    width: 76px;
+    box-shadow: 1px 1px 1px 1px #353578;
+}
+
+.group__name{
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+.group__nickname{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color:#6F6FA2;
+    margin-bottom: 40px;
+}
